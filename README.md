@@ -10,7 +10,7 @@ What if we need to detect things that don't exist in a predefined list? Our trai
 For this purpose, we should train our model to "nothing." There will not be a list of categories of objects like in YOLO models. Instead, there will be an object and images where this object exists. The user will then provide an image of the object they want to detect, and the model will detect the object from a camera or any image.
 
 Our model will learn something deeper than just the shapes and corners of a known object, like a cat's body. It will be trained to more deeply understand and behave like a human.
-
+it's in other say is an inclusion detection model.
 ```python
 import torch
 import torch.nn as nn
